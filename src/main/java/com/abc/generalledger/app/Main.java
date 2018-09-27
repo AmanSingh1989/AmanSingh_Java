@@ -1,7 +1,5 @@
 package com.abc.generalledger.app;
 
-import java.io.IOException;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 

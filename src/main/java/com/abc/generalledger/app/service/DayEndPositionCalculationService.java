@@ -17,7 +17,7 @@ public class DayEndPositionCalculationService {
 	TransactionService transcationService;
 	
 	@Autowired
-	CSVWriter csvWriter;
+	CSVWriterService csvWriter;
 	
 	public static final String CSV_HEADER= "Instrument,Account,AccountType,Quantity,Delta";
 

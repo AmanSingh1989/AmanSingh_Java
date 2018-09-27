@@ -8,7 +8,7 @@ import java.io.IOException;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CSVWriter {
+public class CSVWriterService {
 
 	public void write(String filename, String line) {
 		FileWriter fileWriter = null;

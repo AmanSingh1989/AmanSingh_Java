@@ -16,7 +16,7 @@ import org.springframework.util.ResourceUtils;
 import com.abc.generalledger.app.entity.DailyPosition;
 
 @Service
-public class CSVReader {
+public class CSVReaderService {
 
 	public static final String delimiter = ",";
 

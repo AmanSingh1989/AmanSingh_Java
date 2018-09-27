@@ -19,7 +19,7 @@ public class DailyPositionService {
 	
 	
 	@Autowired
-	CSVReader csvReader;
+	CSVReaderService csvReader;
 	
 	public  Map<String, List<DailyPosition>> getDailyPostionFromCSV(String fileName) {
 		

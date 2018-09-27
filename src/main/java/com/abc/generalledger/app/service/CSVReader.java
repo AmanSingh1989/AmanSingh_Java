@@ -22,7 +22,7 @@ public class CSVReader {
 
 	public List<List<String>> read(String csvFile) {
 		
-		ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+		
 		 
 		
 

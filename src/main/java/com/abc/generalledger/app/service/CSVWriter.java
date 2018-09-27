@@ -13,14 +13,14 @@ public class CSVWriter {
 
 	public void write(String filename, String line) {
 		FileWriter fileWriter = null;
-		File file = null;
 		BufferedWriter output = null;
+	
+		
+		
 		try {
-			file = ResourceUtils.getFile("classpath:" + filename);
-			if (!file.exists()) {
-				file.createNewFile();
-			}
-			fileWriter = new FileWriter(file, true);
+			//file = ResourceUtils.getFile("classpath:"+filename);
+			
+			fileWriter = new FileWriter(new File(filename), true);
 			output = new BufferedWriter(fileWriter);
 			output.write(line);
 		} catch (IOException e) {

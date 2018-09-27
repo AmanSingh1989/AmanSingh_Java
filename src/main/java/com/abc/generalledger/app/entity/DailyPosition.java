@@ -42,10 +42,9 @@ public class DailyPosition {
 	}
 	@Override
 	public String toString() {
-		return  instrument + "," + accountType + "," + quantity
-				+ "," + accountNumber + "," + delta;
+		return  instrument + "," + accountNumber + "," + accountType
+				+ "," + quantity + "," + delta;
 	}
-	
 	
 
 }

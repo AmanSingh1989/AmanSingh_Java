@@ -1,17 +1,11 @@
 package com.abc.generalledger.app.service;
 
-import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.abc.generalledger.app.entity.DailyPosition;
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 
 @Service
 public class DayEndPositionCalculationService {
@@ -104,10 +98,6 @@ public class DayEndPositionCalculationService {
 			}
 			endOftheDayTranscationDetails.append(dailyPositionInternal.toString()).append("\n");
 			endOftheDayTranscationDetails.append(dailyPositionExternal.toString()).append("\n");
-			System.out.println(dailyPositionInternal.toString());
-			System.out.println(dailyPositionExternal.toString());
-			
-			
 
 		}
 		

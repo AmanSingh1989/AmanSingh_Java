@@ -21,11 +21,6 @@ public class CSVReader {
 	public static final String delimiter = ",";
 
 	public List<List<String>> read(String csvFile) {
-		
-		
-		 
-		
-
 		List<List<String>> lines = new ArrayList<List<String>>();
 		try {
 			//File file = new File(getClass().getResource(csvFile).getFile());
